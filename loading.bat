@@ -76,14 +76,6 @@ body {
     var value=input.ReadLine();
 	window.parent.document.title = 'Palafix - ' + value + '%';
 	
-    document.body.innerHTML = document.body.innerHTML.replace('{value ID}', value);
-	
-    function pipePass() {
-        var pass=document.getElementById('pass').value;
-        var fso= new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1);
-        close(fso.Write(pass));
-    }
-	
 	if(value >= 100) window.close();
 	
 	

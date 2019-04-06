@@ -49,19 +49,6 @@ h2 {
 	display: inline-block ;
 
 }
-
-#myProgress {
-  width: 100%;
-  background-color: grey;
-}
-
-#myBar {
-  width: 1%;
-  height: 100px;
-  background-color: green;
-}
-
-
 </STYLE>
 <SCRIPT language="JavaScript">
 var Hscreen=screen.height;
@@ -119,13 +106,6 @@ et de Java, de manière très simple et rapidement.
    <button onclick="closeHTA(5);" class="button">Créer raccourci</button><span class="msgInf">Crée un lanceur de Paladium sur le bureau </span><br /><br /> 
 
 </div>   
-
-
-<script language="Javascript">
-var width=12;
-//var elem = document.getElementById("myBar"); 
-//elem.style.width = width + '%'; 
-</script>
 </BODY>
 </HTML>
 
