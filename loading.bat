@@ -1,5 +1,4 @@
-
-<!-- :
+<!-- :: Loader fait par Wistaro pour Palafix. Aucune copie autorisee sans accord!
 
 @setlocal enableextensions enabledelayedexpansion
 @echo off

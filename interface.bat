@@ -1,4 +1,4 @@
-<!-- :: Batch section
+<!-- :: Interface de Palafix by Wistaro. Aucune copie autorisee sans accord!
 @echo off
 setlocal
 for /F "delims=" %%a in ('mshta.exe "%~F0"') do set "HTAreply=%%a"
