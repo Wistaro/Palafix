@@ -12,7 +12,7 @@ goto END
 
 <HTML>
 <HEAD>
-<TITLE>Palafix v2.0</TITLE>
+<TITLE>Palafix v2.0.1</TITLE>
 
 <STYLE>
 body {
@@ -87,8 +87,8 @@ windowstate="normal"
 />
 </HEAD>
 <BODY>
-<title>Palafix v2.0 - By Wistaro</title>
-<div class="fixError"><h2><center>Palafix <small>v2.0</small></center></h2></div>
+<title>Palafix v2.0.1 - By Wistaro</title>
+<div class="fixError"><h2><center>Palafix <small>v2.0.1</small></center></h2></div>
 <p><b>Palafix est un logiciel créé par Wistaro. <br /></b>
 Il permet de corriger la plupart des problèmes du launcher de Paladium
 et de Java, de manière très simple et rapidement.
@@ -99,7 +99,7 @@ et de Java, de manière très simple et rapidement.
 
 <div id="menu">
 
-   <button onclick="closeHTA(1);" class="button">Vérifier</button><span class="msgInf">Vérifie l'installation de Paladium et de Java.</span> <br /><br /> 
+   <button onclick="closeHTA(1);" class="button">Vérifier & Corriger</button><span class="msgInf">Vérifie et corrige automatiquement l'installation de Paladium et de Java.</span> <br /><br /> 
    <button onclick="closeHTA(2);" class="button">Réinstaller</button><span class="msgInf">Réinstalle totalement Paladium en conservant la configuration <i>(touches, etc..)</i> </span><br /><br /> 
    <button onclick="closeHTA(3);" class="button">Logs</button><span class="msgInf">Lis le dernier fichier log de Paladium </span><br /><br /> 
    <button onclick="closeHTA(4);" class="button">Jouer</button><span class="msgInf">Démarre le jeu Paladium </span><br /><br /> 
