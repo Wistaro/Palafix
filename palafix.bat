@@ -1,6 +1,3 @@
-rem This original file can be download at https://pastebin.com/BY6Z3dip
-rem This file is a backup, do not use it!
-rem --------------------------------------
 rem Palafix est un logiciel entièrement concu par Wistaro.
 rem Toute reutilisation sans citer l'auteur est interdite!
 :CHECKSUM
