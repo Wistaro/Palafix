@@ -2,6 +2,7 @@
 cd %appdata%/.paladium/
 
 set $fichier=launcher1.xml
+set $fichier3=launcher_patch.xml
 set $fichier2=launcher/settings/profiles.xml
 set $chaine=displayName
 set $chaine2=display_name
@@ -21,13 +22,22 @@ echo Verification des fichiers du launcher...
 if not exist %$fichier% (
 	echo.
 	echo Configuration du launcher patch introuvable [fichier launcher1.xml]
-	echo Recherche de la configuration du launcher classique...
+	echo Recherche d'autres fichiers de config...
 	
 	if not exist %$fichier2% ( 
-		echo.
-		echo Erreur, aucun compte trouve.
-		pause
-		exit /b 0
+	
+			if not exist %$fichier3% (
+				echo.
+				echo Erreur, aucun compte trouve.
+				pause
+				exit /b 0
+			)else (
+					echo.
+					echo Configuration launcher patch v2 trouvee!
+					set $fichier=launcher_patch.xml
+					goto getPsdPatch
+			)
+		
 		) else ( 
 			echo.
 			echo Configuration launcher classique trouvee!
