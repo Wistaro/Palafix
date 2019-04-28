@@ -87,14 +87,18 @@ cd %~dp0
 echo %psdUser% > psdUser.txt
 md img_palafix
 cd %~dp0/img_palafix
+echo.
 set headDownloadLink=https://minotar.net/avatar/%psdUser%
 echo.
+if not exist %psdUser%.png (
+
 echo Fichier distant: %headDownloadLink%
-echo.
 echo Telechargement du skin...
 powershell -Command "(New-Object Net.WebClient).DownloadFile('%headDownloadLink%', '%psdUser%.png')"
 echo.
 echo Telechargement termine!
+)
+
 echo.
 echo.
 echo Tout est ok, %psdUser%.
