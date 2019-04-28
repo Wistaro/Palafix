@@ -100,7 +100,7 @@ Il permet de corriger la plupart des problèmes du launcher de Paladium
 et de Java, de manière très simple et rapidement.
 </p>
 
-<p><u><b>Remerciements: </b></u> Milan#1499, Jules#0602, Rooky#7303</p>
+<p><u><b>Remerciements: </b></u> Milan#1499, Well#3024, Rooky#7303</p>
 <hr>
 <div id="playerinfos">
 <img src="" alt="player" height=30px id="logo"/> <span class="msgInf"><b>Joueur connecté: </b> <span id="psdUser"></span> </span>
@@ -111,8 +111,8 @@ et de Java, de manière très simple et rapidement.
 
    <button onclick="closeHTA(1);" class="button">Vérifier & Corriger</button><span class="msgInf">Vérifie et corrige automatiquement l'installation de Paladium et de Java.</span> <br /><br /> 
    <button onclick="closeHTA(2);" class="button">Réinstaller</button><span class="msgInf">Réinstalle totalement Paladium en conservant la configuration <i>(touches, etc..)</i> </span><br /><br /> 
-   <button onclick="closeHTA(3);" class="button">Logs</button><span class="msgInf">Lis le dernier fichier log de Paladium </span><br /><br /> 
-   <button onclick="closeHTA(4);" class="button">Jouer</button><span class="msgInf">Démarre le launcher de Paladium </span><br /><br /> 
+   <button onclick="closeHTA(3);" class="button">Logs</button><span class="msgInf">Lis les derniers fichiers log de Paladium </span><br /><br /> 
+   <button onclick="closeHTA(4);" class="button">Jouer</button><span class="msgInf">Démarre normalement le launcher de Paladium </span><br /><br /> 
    <button onclick="closeHTA(5);" class="button">Créer raccourci</button><span class="msgInf">Crée un lanceur de Paladium sur le bureau </span><br /><br /> 
 
 </div>   
