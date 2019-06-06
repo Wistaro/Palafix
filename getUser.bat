@@ -1,7 +1,7 @@
 @echo off
 cd %appdata%/.paladium/
 
-set $fichier=launcher1.xml
+set $fichier=config.xml
 set $fichier3=launcher_patch.xml
 set $fichier2=launcher/settings/profiles.xml
 set $chaine=displayName
@@ -47,7 +47,7 @@ if not exist %$fichier% (
 
 :getPsdPatch
 echo.
-echo Recuperation du pseudo du joueur {launcher patch}
+echo Recuperation du pseudo du joueur {launcher release V6}
 setlocal EnableDelayedExpansion
 for /f "delims=" %%a in ('type %$fichier%') do (
     set $ligne=%%a
