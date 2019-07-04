@@ -8,7 +8,6 @@ rem Made by Wistaro {##Discord: Wistaro#9308, ##Twitter: @Wistaro}
 rem DO NOT COPY OR MODIFY WITHOUT THE PERMISSION OF THE AUTHOR!
 rem **************************************************************
 :CHECKSUM
-
 cls
 @echo off
 set PalafixVersion=2.2.0
