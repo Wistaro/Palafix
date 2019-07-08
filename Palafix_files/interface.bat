@@ -19,7 +19,7 @@ goto END
 
 <HTML>
 <HEAD>
-<TITLE>Palafix v2.2.0 [GUI]</TITLE>
+<TITLE>Palafix v2.2.1 [GUI]</TITLE>
 
 <STYLE>
 body {
@@ -72,7 +72,7 @@ function closeHTA(reply){
 
 
 <HTA:APPLICATION
-APPLICATIONNAME = "Palafix 2.2.0 [Interface]"
+APPLICATIONNAME = "Palafix 2.2.1 [Interface]"
 border="thin"	
 borderstyle="sunken"
 caption="yes"
@@ -93,8 +93,8 @@ windowstate="normal"
 />
 </HEAD>
 <BODY>
-<title>Palafix v2.2.0 [Interface]</title>
-<div class="fixError"><h2><center>Palafix <small>v2.2.0</small></center></h2></div>
+<title>Palafix v2.2.1 [Interface]</title>
+<div class="fixError"><h2><center>Palafix <small>v2.2.1</small></center></h2></div>
 <p><b>Palafix est un logiciel créé par Wistaro. <br /></b>
 Il permet de corriger la plupart des problèmes du launcher de Paladium
 et de Java, de manière très simple et rapidement.
