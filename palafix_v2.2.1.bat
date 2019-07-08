@@ -27,8 +27,6 @@ echo ******************* >> "%~dp0\Palafix_logs\Palafix_out.txt"
 echo. >> "%~dp0\Palafix_logs\Palafix_out.txt"
 
 
-goto MENU
-
 echo Verification du fichier Palafix
 cd %temp%
 if exist "CheckSumExcepted.txt" (
